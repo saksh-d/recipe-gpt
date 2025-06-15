@@ -3,7 +3,7 @@ import torch
 from transformers import AutoModelForCausalLM, GPT2TokenizerFast
 
 # Load fine-tuned model
-model_path = "../models/recipe-gpt"
+model_path = "saksh-d/recipe-gpt"
 tokenizer = GPT2TokenizerFast.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path)
 model.eval()
