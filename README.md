@@ -63,3 +63,12 @@ Enter comma-separated ingredients when prompted, for example,
 ```bash
 Enter ingredients (comma-separated): chicken, rice, garlic
 ```
+
+## Gradio app
+
+Access on HuggingFace at: https://huggingface.co/spaces/saksh-d/Recipe-GPT
+
+Run locally with
+```bash
+python app.py
+```
