@@ -4,6 +4,10 @@ This project fine-tunes the pretrained [`openai-community/gpt2`](https://hugging
 
 The goal is to teach GPT-2 how to generate coherent cooking instructions from a list of ingredients.
 
+## Live Demo
+
+Try it via Gradio on Hugging Face Spaces: [Recipe-GPT Web App](https://huggingface.co/spaces/saksh-d/Recipe-GPT)
+
 ## Key Features:
 - Base Model: GPT-2 (117M) from Hugging Face Model Hub
 - Frameworks: 
