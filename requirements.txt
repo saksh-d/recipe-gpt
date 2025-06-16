@@ -4,11 +4,8 @@ transformers>=4.40.0
 datasets>=2.18.0
 evaluate>=0.4.1
 
-# Optional performance boost (used internally by Hugging Face)
-accelerate>=0.27.0
-
-# UI for generation (Phase 5)
+# UI for generation
 gradio>=4.27.0
 
-# Jupyter support (if you're working in notebooks)
+# Jupyter support
 ipykernel>=6.0.0
